@@ -1,0 +1,103 @@
+*{
+    padding: 0; 
+     margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.09rem;
+}
+body{
+    text-align: center;
+    background-color: lightsteelblue;
+}
+.container{
+    padding: 3rem .5rem 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: center;
+    /* border: 3px solid red; */
+    /* height: 100vh; */
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+.choices{
+    display: flex;
+    justify-content:center;
+    gap: 3rem;
+    margin: .7rem 0;
+}
+.scores{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+button{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.buttons button{
+    font-size: 2rem;
+    border-radius: .2rem;
+    border: none;
+    padding: .5rem;
+    box-shadow: 3px 3px 0px 2px rgb(0, 0, 0);
+    margin: 0 .2rem;
+}
+.buttons button:hover{
+    opacity: .7;
+}
+.buttons button:active{
+    opacity: 1;
+}
+#player-score{
+    color:rgb(0, 120, 0);
+}
+#computer-score{
+    color: red;
+}
+#new-btn{
+    padding: .7rem 1rem;
+    border-radius: 2rem;
+    background-color: rgb(57, 53, 53);
+    color: white;
+    width: 7rem;
+
+}
+#new-btn:hover{
+
+    background-color: rgb(0, 0, 0);
+}
+
+#rock-btn{
+    background-color: rgb(255, 0, 0);
+}
+
+#scissor-btn{
+    background-color: rgb(95, 0, 163);
+}
+#paper-btn{
+    background-color: rgb(0, 29, 174)
+}
+#rock-heading{
+    color:  rgb(255, 0, 0);
+    font-style: italic;
+}
+#paper-heading{
+    color:rgb(0, 29, 174) ;
+    font-style: italic;
+}
+#scissor-heading{
+    color:rgb(95, 0, 163) ;
+    font-style: italic;
+}
+#message{
+    font-style: italic;
+    /* color: aqua; */
+}
+#player-choice{
+    color: green;
+}
+#computer-choice{
+    color: red;
+}
